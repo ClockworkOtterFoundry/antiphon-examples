@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <!-- Run on whatever .NET major runtime is present (8 or 10 per README Prerequisites) even if the exact net8.0 runtime isn't installed. -->
+    <RollForward>LatestMajor</RollForward>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antiphon" Version="0.9.0" />
+    <PackageReference Include="Antiphon.Generation.Ubl" Version="0.9.0" />
+    <PackageReference Include="Antiphon.Validation.Pipeline" Version="0.9.0" />
+    <PackageReference Include="Antiphon.Rules.Cen.Ubl" Version="0.9.0" />
+    <PackageReference Include="Antiphon.Rules.Peppol.Ubl" Version="0.9.0" />
+    <PackageReference Include="Antiphon.Xsd.Ubl" Version="0.9.0" />
+  </ItemGroup>
+
+</Project>
