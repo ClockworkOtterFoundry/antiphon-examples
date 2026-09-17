@@ -119,9 +119,9 @@ this writing.
   `docs/Antiphon-Getting-Started.md`'s "Selecting rules for a historical invoice" section in the
   private Antiphon repo.
 
-## Not on nuget.org yet
+## Published on nuget.org
 
-None of these 19 packages are published to nuget.org yet — see the root `README.md`'s
-release-posture note for why and what's blocking it. Everything in this document was verified
-against the real packed `.nupkg` output built by `../Antiphon`'s own `tools/pack-release.sh` and
-served locally (see `README.md`'s Local-feed setup), not from source alone.
+All 19 packages are published to nuget.org at version `1.0.0` — see the root `README.md`'s
+release-posture note for the current evaluation-mode/EULA/standards-completion caveats.
+Everything in this document was verified against the real packed `.nupkg` output built by
+`../Antiphon`'s own `tools/pack-release.sh`, not from source alone.

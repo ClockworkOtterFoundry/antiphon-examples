@@ -10,9 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Antiphon" Version="0.9.0" />
-    <PackageReference Include="Antiphon.Generation.Cii" Version="0.9.0" />
-    <PackageReference Include="Antiphon.Pdf" Version="0.9.0" />
+    <PackageReference Include="Antiphon" Version="1.0.0" />
+    <PackageReference Include="Antiphon.Generation.Cii" Version="1.0.0" />
+    <PackageReference Include="Antiphon.Pdf" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
