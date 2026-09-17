@@ -161,7 +161,7 @@ After verification passes, run **one** Codex review of the full diff for this ph
 Save a copy of your completion report to:
 
 ```
-docs/Results/EX-3-Public-Reference-Docs.md
+docs/Results/EX-3-Public-Reference-Docs-Retry.md
 ```
 
 ---
