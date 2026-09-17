@@ -19,31 +19,22 @@ function, nothing sabotaged. See the [licensing note](#licensing) below.
 
 ## Getting started
 
-Antiphon's NuGet packages are published to nuget.org at version `1.0.0`. Clone this repo, then:
-
-```bash
-dotnet restore 01-generate-xrechnung
-dotnet run --project 01-generate-xrechnung
-```
-
-Packages resolve straight from nuget.org — no private repo access, no local package feed, no
-sibling checkout of the `Antiphon` repository required.
-
-## Running the samples
-
-```bash
-cd 01-generate-xrechnung && dotnet run
-cd ../02-validate-peppol && dotnet run
-cd ../03-facturx-pdf && dotnet run
-```
-
-Each folder's own `README.md` documents exactly what it does and its expected output.
+See [How To Run Examples](docs/Antiphon-How-To-Run-Examples.md) for the full clone/restore/run
+walkthrough for all three samples.
 
 ## Which package(s) do you need?
 
 See [`PACKAGES.md`](PACKAGES.md) — a map of all 19 Antiphon NuGet packages, grouped by concern,
 with a "what do I reference for..." quick-answer table for generate-only, validate-only, both,
 Factur-X/PDF production, and provenance/version exposure.
+
+## More documentation
+
+- [How It Works](docs/Antiphon-How-It-Works.md) — architecture and capability overview.
+- [How It Was Tested](docs/Antiphon-How-It-Was-Tested.md) — conformance evidence you can verify yourself.
+- [How To Run Examples](docs/Antiphon-How-To-Run-Examples.md) — the full walkthrough for all three samples.
+- [Licensing](docs/Antiphon-Licensing.md) — what evaluation mode means and how commercial licensing works.
+- [Support Terms](docs/Antiphon-Support-Terms.md) — support posture for evaluation-mode use.
 
 ## Release posture
 
